@@ -8,6 +8,8 @@
 ## Prepare MS PowerAutomate
 
 ### Special case: select_multiple
+*Maybe there is a better way, but this is how we make it work at the moment.*
+
 If you use select_multiple question type in KoBo, the payload of that field will be a string formatted like:
 
 ```
@@ -21,3 +23,6 @@ EspoCRM expects to receive an array for a multi-enum field, so you need to conve
 	* Select "Array" as the type
 	* Use the output from the previous compose as Value
 3. Then use the variable created in step 2, to create your the body that you will send to espo.
+4. Repeat for all select_multiple fields
+
+![image](https://user-images.githubusercontent.com/39266480/153206058-b9302ff0-fda5-4cba-8654-9212ea9e7b46.png)
