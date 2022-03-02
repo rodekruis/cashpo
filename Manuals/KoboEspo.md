@@ -23,6 +23,6 @@ EspoCRM expects to receive an array for a multi-enum field, so you need to conve
 	* Select "Array" as the type
 	* Use the output from the previous compose as Value
 3. Repeat for all select_multiple fields
-4. Then use the variable created in step 2/3, to create your the body that you will send to espo.
+4. Then use the variable created in step 2/3, to create your the body that you will send to espo. You don't have to put the variable between ```" "``` since it already is an array.
 
 ![image](https://user-images.githubusercontent.com/39266480/153206058-b9302ff0-fda5-4cba-8654-9212ea9e7b46.png)
