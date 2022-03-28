@@ -32,7 +32,7 @@ EspoCRM expects to receive an array for a multi-enum field, so you need to conve
 
 
 ## Using attachements in KoBo (file/picture/video) -> Additional logic in EspoCRM
-After you've configured your form and powerautomate (or logic app), the final step is to configure the logic in Espo. Everything should work, but if you are using attachements in your form, you need to configure some additional logic. Depending on what records you are creating, open up the formula section of that entity.
+After you've configured your form and powerautomate, the final step is to configure the logic in Espo. Everything should work, but if you are using attachements in your form, you need to configure some additional logic. Depending on what records you are creating, open up the formula section of that entity.
 
 Here we will construct the logic to concatenate the url to the attachement making use of the filename and baseURL.
 
