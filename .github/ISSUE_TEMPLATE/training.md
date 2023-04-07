@@ -1,4 +1,11 @@
+---
+name: Training request
+about: Describe the needed training
+title: "[Training] "
+labels: ''
+assignees: ''
 
+---
 
 **Training objectives**
 What do you want to achieve at the end of the training?
